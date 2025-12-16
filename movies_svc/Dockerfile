@@ -13,7 +13,7 @@ RUN uv sync --no-install-project
 # Copy source code
 COPY src ./src
 
-# Install the project (so package fastapi_books_uv is importable)
+# Install the project (so package movies_svc is importable)
 RUN uv sync
 
 # Expose FastAPI port
